@@ -14,7 +14,7 @@ import {
 import { openAlert } from "../Redux/Slices/alertSlice";
 import setBearer from "../Utils/setBearer";
 
-const baseUrl = "http://localhost:5000/user/"; // Ensure trailing slash
+const baseUrl = "https://backend-of-trello.onrender.com/user/"; // Ensure trailing slash
 
 // Register User
 export const register = async (
